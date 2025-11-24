@@ -54,18 +54,8 @@ This project demonstrates essential C programming concepts such as **file handli
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 # 💊 Pharmacy Inventory Management System (C Project)
-
-## 4. File Handling Requirements
-- Read/write access to project folder  
-- Records stored in binary: `pharmacy.dat`  
-- Auto-creates the file if missing  
-
-## 5. Compilation Requirements
-Recommended compilation:
-```bash
-gcc pharmacy.c -o pharmacy -Wall
-# ⚙️ Functional Requirements
 
 ## 1. User Interface
 - Fully terminal-based  
@@ -93,47 +83,24 @@ Modify:
 ### ❌ Delete Medicine
 Removes a medicine entry after confirmation.
 
----
-
-## 🗂 Data Management
-- Persistent binary file (`pharmacy.dat`)  
+## 3. Data Management
+- Persistent binary file: `pharmacy.dat`  
 - Data saved across multiple program runs  
 - Handles missing/empty files gracefully  
 
----
+## 4. File Handling Requirements
+- Read/write access to project folder  
+- Records stored in binary: `pharmacy.dat`  
+- Auto-creates the file if missing  
 
-## 🔁 Program Flow
+## 5. Program Flow
 - Menu-driven loop  
 - Continues until user selects **Exit**  
 - Provides clear messages and smooth navigation  
 
----
+## 6. Compilation Requirements
+Recommended compilation:
 
-## ▶ How to Run the Program
-
-### 1. Compile
-
-#### Linux / macOS:
 ```bash
-gcc pharmacy.c -o pharmacy
-### 2. Run
+gcc pharmacy.c -o pharmacy -Wall
 
-#### Linux / macOS:
-```bash
-./pharmacy
-### 3. Data File
-- Auto-creates `pharmacy.dat`
-- Stores all medicine records persistently
-
----
-
-## 🖼 Screenshots
-*(Replace with actual screenshots)*
-
-1️⃣ Main Menu  
-2️⃣ Add Medicine  
-3️⃣ View Medicines  
-4️⃣ Search Medicine  
-5️⃣ Update Medicine  
-6️⃣ Delete Medicine  
-7️⃣ Exit
